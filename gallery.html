@@ -9,9 +9,39 @@
     a { color: #4b0082; text-decoration: none; }
   </style>
 </head>
+  <style>
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.photo-gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
+}
+</style>
 <body>
   <h1>Photo Gallery</h1>
   <p><em>Coming Soon...</em></p>
   <p><a href="index.html">Back to Home</a></p>
 </body>
 </html>
+<div class="photo-gallery">
+  <img src="images/thumbnail_Breah hits ball.jpg" alt="Breah hits the ball">
+  <img src="images/thumbnail_8 caught in rundown 2 (1).jpg" alt="Caught in rundown">
+  <img src="images/thumbnail_Anna hits ball - good one.jpg" alt="Anna hits solid contact">
+  <img src="images/thumbnail_Anna hits ball.jpg" alt="Anna swings">
+  <img src="images/thumbnail_Anna scores (1).jpg" alt="Anna scores run">
+  <img src="images/thumbnail_Anna scores 4.jpg" alt="Anna crosses home plate">
+  <img src="images/thumbnail_Breah Harms hits ball.jpg" alt="Breah Harms at the plate">
+  <img src="images/thumbnail_Breah hits ball (1).jpg" alt="Breah swings at pitch">
+</div>
